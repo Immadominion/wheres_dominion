@@ -1,5 +1,5 @@
 # Where's Alex private multiparty game on Aleo 
-Hide Alex and challenge a friend to find Alex -- winner gets the pot!
+Hide Dominion and challenge a friend to find Alex -- winner gets the pot!
 
 Alex's location is hidden onchain from the other party, and the entire game is hidden from everyone on chain so you can bet as much as you want without judgement :)
 
@@ -23,7 +23,7 @@ Where's Alex? is a fun experiment that aims to be a fun 1v1 game to showcase how
 <br /> 
 
 ## What is the "Where's Alex?" game?
-Hide alex in a secret location and wager another person on Aleo to guess where you hid Alex. If they guess wrong, then you win the prize pot between you both! 
+Hide Dominion in a secret location and wager another person on Aleo to guess where you hid Dominion. If they guess wrong, then you win the prize pot between you both! 
 
  <br />
 
@@ -51,7 +51,7 @@ If you're interested in building your own multiparty game on Aleo, fork this rep
 1. Starting a new game (challenger)
 - mint Puzzle Pieces if you don't have already
 - challenge another Aleo address
-- hide alex in either the weeds or the bushes
+- hide Dominion in either the weeds or the bushes
 - set your wager amount to win if your opponent guesses wrong!
 
 <br /> 

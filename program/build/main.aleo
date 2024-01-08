@@ -1,6 +1,6 @@
 import imma_piece_v01.aleo;
 import multiparty_pvp_utils_v015.aleo;
-program imma_find_dominion_v01.aleo;
+program imma_find_Alex_v01.aleo;
 
 
 
@@ -273,7 +273,7 @@ function accept_game:
     output r14 as WaitingRevealNotification.record;
     output r15 as RevealAnswerNotification.record;
     output r16 as Game.record;
-    output r17 as imma_find_dominion_v01.aleo/accept_game.future;
+    output r17 as imma_find_Alex_v01.aleo/accept_game.future;
 
 finalize accept_game:
     input r0 as u32.public;
@@ -346,7 +346,7 @@ function finish_game_by_timeout:
     output r4 as Game.record;
     output r5 as GameFinishedNotification.record;
     output r6 as GameFinishedNotification.record;
-    output r9 as imma_find_dominion_v01.aleo/finish_game_by_timeout.future;
+    output r9 as imma_find_Alex_v01.aleo/finish_game_by_timeout.future;
 
 finalize finish_game_by_timeout:
     input r0 as u32.public;
