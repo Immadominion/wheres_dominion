@@ -7,6 +7,8 @@ import { useGameStore } from '@state/gameStore';
 import { useNewGameStore } from './NewGame/store';
 import { useAccount } from '@puzzlehq/sdk';
 
+import rightImageSrc from '../assets/puzzle_tilt_right.png';
+
 function Home() {
   const [yourTurn, theirTurn, totalBalance] = useGameStore((state) => [
     state.yourTurn,
@@ -18,8 +20,8 @@ function Home() {
   const navigate = useNavigate();
 
   return (
-    <div className='flex h-full flex-col justify-between '>
-      <div className='flex w-full flex-col gap-4 px-1'>
+    <div className='flex flex-col h-full'>
+      <div className='flex flex-col gap-4 px-1 flex-grow'>
         <TotalWinnings amount={totalBalance} />
         <Button
           color='yellow'
@@ -40,9 +42,13 @@ function Home() {
           </p>
         )}
       </div>
-      <div className='mt-4 px-4 pb-4 text-center'>
-        {' '}
-        {/* Adding px-4 back here to maintain padding for the bottom button */}
+      <div className='mt-8 px-4 pb-4 text-center relative'>
+        {/* Adjusted styles to move the image down */}
+        <img
+          src={rightImageSrc}
+          alt='Left Dominion'
+          className='absolute left-1/2 transform -translate-x-1/2 -bottom-[0rem] h-[30rem] w-[40%] object-contain md:-translate-y-10-x-10'
+        />
         <Button color='blue' size='sm'>
           Past Games
         </Button>

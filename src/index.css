@@ -18,6 +18,7 @@
 }
 
 body {
+
   margin: 0;
   display: flex;
   place-items: center;
@@ -52,26 +53,16 @@ h1 {
 }
 
 .App {
-  background-image: url('../src/assets/puzzle_upside_down_left.png'),
-    url('../src/assets/puzzle_tilt_right.png'),
-    url('../src/assets/puzzle_tilt_left.png'),
-    url('../src/assets/puzzle_upside_down_right.png');
+  background: /*url('../src/assets/puzzle_tilt_right.png'),*/ linear-gradient( #3493e63a, #ec6ead48);
+  /*background-position: right 50% bottom 20%;*/ /* Adjust the bottom value as needed */
 
-  background-position:
-    left 10%,
-    right 25%,
-    left 90%,
-    right 75%;
-
-  /* Set the size for each image to cover 25% vertically */
-  background-size:
-    auto 20%,
-    auto 20%,
-    auto 20%,
-    auto 20%;
+  /* Set the size for the image to cover 25% vertically */
+  background-size: /*auto 35%,*/ auto 100%; /* Adjust the size as needed */
 
   background-repeat: no-repeat;
 }
+
+
 
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
