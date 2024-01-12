@@ -47,7 +47,8 @@ function Home() {
         <img
           src={rightImageSrc}
           alt='Left Dominion'
-          className='absolute left-1/2 transform -translate-x-1/2 -bottom-[0rem] h-[30rem] w-[40%] object-contain md:-translate-y-10-x-10'
+          // className='absolute left-1/2 transform -translate-x-1/2 -bottom-[0rem] h-[30rem] w-[40%] object-contain md:-translate-y-10-x-10'
+          className='absolute left-1/2 transform -translate-x-1/2 -bottom-[-5rem] max-w-[45%] h-auto object-contain md:-translate-y-10-x-10'
         />
         <Button color='blue' size='sm'>
           Past Games
