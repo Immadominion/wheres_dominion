@@ -1,7 +1,7 @@
 import { RecordWithPlaintext } from '@puzzlehq/sdk';
 import { Answer } from './RecordTypes/wheres_alex_vxxx';
 
-export const GAME_PROGRAM_ID = 'imma_find_Alex_v01.aleo';
+export const GAME_PROGRAM_ID = 'imma_find_alex_v01.aleo';
 
 export const GAME_FUNCTIONS = {
   propose_game: 'propose_game',

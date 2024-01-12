@@ -2,7 +2,7 @@ import imma_piece_v01.leo;
 import multiparty_pvp_utils_v015.leo;
 
 // The 'coinflip' program.
-program imma_find_Alex_v01.aleo {
+program imma_find_alex_v01.aleo {
 
     // ix: 1
     record Game {
