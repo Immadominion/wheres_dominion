@@ -1,4 +1,5 @@
 # Where's Immadominion private multiparty game on Aleo 
+Discord Username: ImmaDominion#8075
 Hide Dominion and challenge a friend to find Immadominion -- winner gets the pot!
 
 Immadominion's location is hidden onchain from the other party, and the entire game is hidden from everyone on chain so you can bet as much as you want without judgement :)
